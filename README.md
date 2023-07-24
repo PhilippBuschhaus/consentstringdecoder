@@ -1,1 +1,1 @@
-# consentstringdecoder
+# Deocde TCF Consent Strings
