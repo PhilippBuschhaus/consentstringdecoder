@@ -18,7 +18,6 @@ function getConsentString() {
 }
 
 function processConsentString(decodedString) {
-  console.log(decodedString);
   addResultHtmlWrapper();
 
   for (let key in decodedString) {
@@ -47,8 +46,6 @@ function addResultHtmlWrapper() {
 }
 
 function addResult(key, value) {
-  console.log(key);
-
   var tableDataHtml = tabledata({
     key: key,
     value: value,
